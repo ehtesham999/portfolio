@@ -1,0 +1,25 @@
+/* Base styles to be populated in Phase 6 */
+:root {
+    --bg-main: #0f172a;
+    --text-main: #f8fafc;
+    --primary: #3b82f6;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-main);
+    background-color: var(--bg-main);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
