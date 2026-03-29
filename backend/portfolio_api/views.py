@@ -1,5 +1,5 @@
 from rest_framework import generics
-from .models import Skill, Project, ContactMessage
+from backend.portfolio_api.models import Skill, Project, ContactMessage
 from .serializers import SkillSerializer, ProjectSerializer, ContactMessageSerializer
 
 class SkillListAPIView(generics.ListAPIView):
